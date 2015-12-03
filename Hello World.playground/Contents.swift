@@ -7,7 +7,6 @@ let implicitInteger = 23
 
 let implicitDouble = 1.4142
 
-let explicitDouble : Double = 14.000
+let explicitDouble : Double = 42.00
 
 let explicitFloat: Float = 4
-
