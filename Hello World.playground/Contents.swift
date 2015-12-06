@@ -25,7 +25,9 @@ let oranges = 5
 let appleSummary = "I have \(apples) apples."
 let fruitSummary = "I have \(apples + oranges) pieces of fruit."
 
-
+var float1: Float = 2.250
+var float2: Float = -6.78
+var conversionString = "Trying to calculate \(float1 + float2) directly inside this string."
 
 //Increment/decrement operators
 
@@ -35,3 +37,4 @@ let a = ++x  // pre-increment  - returns input value after mutation
 let b = x++  // post-increment - returns copy of input value before mutation
 let c = --x  // pre-decrement  - returns input value after mutation
 let d = x--  // post-decrement - returns copy of input value before mutation
+
