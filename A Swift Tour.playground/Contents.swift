@@ -44,3 +44,12 @@ let d = x--  // post-decrement - returns copy of input value before mutation
 var teams = ["A.C. Milan", "Inter Milan", "Juventus F.C."]
 
 teams[0]
+
+var occupations = [
+    "Emanuele": "General manager",
+    "Marek": "Assistant manager",
+]
+
+occupations
+
+
