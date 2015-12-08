@@ -52,4 +52,7 @@ var occupations = [
 
 occupations
 
+occupations["Carolina"] = "Team leader"
+
+occupations
 
