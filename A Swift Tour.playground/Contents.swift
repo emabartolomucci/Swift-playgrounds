@@ -53,6 +53,8 @@ var occupations = [
 occupations
 
 occupations["Carolina"] = "Team leader"
+occupations["Silvana"] = "Barista"
+occupations["David"] = "Hot chef"
 
 occupations
 
