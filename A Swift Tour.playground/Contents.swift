@@ -58,3 +58,10 @@ occupations["David"] = "Hot chef"
 
 occupations
 
+
+// Initializer syntax to create an empty array or dictionary.
+
+let emptyArray = [String]()
+let emptyDictionary = [String: Float]()
+
+
