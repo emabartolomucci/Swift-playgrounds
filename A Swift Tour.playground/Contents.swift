@@ -11,7 +11,7 @@ let explicitDouble : Double = 42.00
 let explicitFloat: Float = 4
 
 
-// Strings
+// 1. Strings
 //
 // Values are never implicitly converted to another type. If you need to convert a value to a different type, explicitly make an instance of the desired type.
 
@@ -64,4 +64,26 @@ occupations
 let emptyArray = [String]()
 let emptyDictionary = [String: Float]()
 
+
+
+// 2. Control flow
+//
+// if and switch: conditionals
+// for-in, for, while, and repeat-while: loops.
+//
+//Parentheses around the condition or loop variable are optional. Braces around the body are required.
+
+let individualScores = [75, 43, 103, 87, 12]
+var teamScore = 0
+for score in individualScores {
+    score
+    if score > 50 {
+        teamScore += 3
+    } else {
+        teamScore += 1
+    }
+    print(score)
+    score
+}
+print(teamScore)
 
