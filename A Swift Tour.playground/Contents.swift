@@ -97,4 +97,4 @@ if let name = optionalName {
     greeting = "Hello, \(name)"
 } else { greeting = "Hello, my friend" }
 
-
+// If the optional value is nil, the conditional is false and the code in braces is skipped. Otherwise, the optional value is unwrapped and assigned to the constant after let, which makes the unwrapped value available inside the block of code.
