@@ -98,3 +98,11 @@ if let name = optionalName {
 } else { greeting = "Hello, my friend" }
 
 // If the optional value is nil, the conditional is false and the code in braces is skipped. Otherwise, the optional value is unwrapped and assigned to the constant after let, which makes the unwrapped value available inside the block of code.
+
+// Another way to handle optional values is to provide a default value using the ?? operator. If the optional value is missing, the default value is used instead.
+
+let nickName: String? = nil
+let fullName: String = "John Appleseed"
+let informalGreeting = "Hi \(nickName ?? fullName)"
+
+// Switches support any kind of data and a wide variety of comparison operations—they aren’t limited to integers and tests for equality.
