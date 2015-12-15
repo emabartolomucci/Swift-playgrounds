@@ -106,3 +106,4 @@ let fullName: String = "John Appleseed"
 let informalGreeting = "Hi \(nickName ?? fullName)"
 
 // Switches support any kind of data and a wide variety of comparison operations—they aren’t limited to integers and tests for equality.
+
